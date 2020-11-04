@@ -5,4 +5,6 @@ int main()
 	Aggregator a;
 
 	a.ListAudioDevices();
+	a.RecordAudioStream();
+	//a.RenderAudioStream();
 }
